@@ -1,0 +1,27 @@
+ # conda create --name tensorflow-cpu python=3.9.5
+ # conda install jupyter
+ # conda install nb_conda
+ # conda install -c anaconda tensorflow
+ # conda env update --file tools.yml
+dependencies:
+    - jupyter
+    - scikit-learn
+    - scipy
+    - pandas
+    - pandas-datareader
+    - matplotlib
+    - pillow
+    - tqdm
+    - requests
+    - h5py
+    - pyyaml
+    - flask
+    - boto3
+    - pip
+    - pip:
+        - bayesian-optimization
+        - gym
+        - kaggle
+
+#We can add more i just made this for someone who wants to start a virtual environment with scratch so these dependencies will be must
+        
